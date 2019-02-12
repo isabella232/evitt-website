@@ -18,7 +18,7 @@ npm run watch:css
 - Install nvm (Node Version Manager) using the directions at https://github.com/creationix/nvm#installation
 - `nvm use`
 - `npm install`
-- `npm watch:css`
+- `npm run watch:css`
 - Run a local server in the `public/` directory
 
 Whenever you enter this repo's directory, you should always run `nvm use` before doing anything, so that you use our sanctioned version of Node.
