@@ -58,6 +58,12 @@ $secondary-bg-color: #eef0f0;
     height: 50px;
 }
 
+.eventbrite-logo {
+    height: 20px;
+    position: relative;
+    top: -2px;
+}
+
 %curve-container {
     width: 100%;
     svg {
@@ -193,7 +199,7 @@ body {
                 // Fix for SVG images in IE 10
                 width: 100% \9;
             }
-    
+
             .everywhere {
                 margin: 1.5rem -1rem;
                 @include media-breakpoint-up('md') {
