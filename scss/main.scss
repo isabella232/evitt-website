@@ -213,6 +213,21 @@ body {
                 }
             }
         }
+
+        .step-box {
+            @extend .border-0, .rounded-0, .shadow;
+            background-color: $white;
+            padding: 1.5rem 1rem 0.5rem;
+
+            .content-img {
+                @extend .img-fluid;
+                // Fix for SVG images in IE 10
+                width: 100% \9;
+                @include media-breakpoint-down('md') {
+                    width: 80%;
+                }
+            }
+        }
     }
 
     .bottom-curve-container {
