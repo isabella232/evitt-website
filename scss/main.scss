@@ -71,12 +71,6 @@ $secondary-bg-color: #eef0f0;
     }
 }
 
-.signup-btn {
-    @extend .btn, .btn-primary, .font-weight-semi-bold;
-    // Set it super high, it just works for some reason
-    border-radius: 10rem;
-}
-
 html {
     scroll-behavior: smooth;
     body {
